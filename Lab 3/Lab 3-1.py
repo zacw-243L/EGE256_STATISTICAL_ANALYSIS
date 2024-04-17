@@ -3,8 +3,12 @@ import random
 from matplotlib import pyplot as plt
 
 start_time = time.time()
-random.seed(7)
+a = 7
+b = 8  # experiment around with random seed
+c = 10
+random.seed(a)
 total_trials = 500000
+total_trials1 = 900000  # samething for trials
 total = 0
 count_6 = 0
 P_E = []
